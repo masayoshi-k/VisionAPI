@@ -13,7 +13,7 @@ namespace ComputerVisionOCRDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Specify the file path to analyze: ");
+            Console.WriteLine("分析するファイルパスを指定してください: ");
             string imageFilePath = Console.ReadLine();
 
             Uri fileUri = new Uri(imageFilePath);
